@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form!</title>
+    </head>
+    <body>
+        <form>
+           <!-- Normal input textbox -->
+            <div>
+                <input name="name" type=""text" placeholder="Name">
+                <input name="password" type="password" placeholder="Password">
+            </div>
+            <!-- Multiple option input -->
+            <div>
+                <input name="color" type="radio" value="red"> Red
+                <input name="color" type="radio" value="green"> Green
+                <input name="color" type="radio" value="blue"> Blue
+                <input name="color" type="radio" value="other"> Other
+            </div>
+
+            <!-- provides different option in form of drop down menu and search -->
+            <div>
+                <input name="Country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Canada">
+                    <option value="UK">
+                    <option value="US">
+                </datalist>
+            </div>
+        </form>   
+    </body>
+</html>
