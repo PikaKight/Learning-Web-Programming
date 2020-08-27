@@ -1,0 +1,10 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 500px;
+    text-align: center;
+    margin: 50px;
+}
